@@ -11,7 +11,7 @@
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
     a{color:var(--green);text-underline-offset:3px}button{font:inherit;color:inherit}
     .shell{min-height:100vh}.rail{position:fixed;inset:0 auto 0 0;width:250px;background:var(--navy);color:#eaf4ee;padding:26px 18px;display:flex;flex-direction:column;z-index:5}
-    .brand{display:flex;align-items:center;gap:12px;padding:2px 10px 30px}.brand-mark{width:38px;height:38px;border-radius:13px;background:linear-gradient(145deg,#b9efc8,#78c5a4);display:grid;place-items:center;color:#123a34;font-weight:900;font-size:18px}
+    .brand{display:flex;align-items:center;gap:12px;padding:2px 10px 30px}.brand-mark{width:38px;height:38px;border-radius:13px;object-fit:cover;display:block;flex:none}
     .brand strong{display:block;font-size:14px;letter-spacing:.08em}.brand small{display:block;color:#9dbab0;font-size:11px;margin-top:2px}
     .rail-label{padding:6px 12px;color:#829f95;font-size:10px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
     .nav{display:grid;gap:5px}.nav a{color:#b7ccc4;text-decoration:none;padding:10px 12px;border-radius:11px;font-size:13px;font-weight:650;display:flex;gap:10px;align-items:center}.nav a:hover,.nav a.active{background:#244844;color:#fff}.nav .ico{width:18px;text-align:center;color:#91d6b1}
@@ -54,7 +54,7 @@
 <body>
 <div class="shell">
   <aside class="rail">
-    <div class="brand"><div class="brand-mark">N</div><div><strong>NEKURAMA</strong><small>WORK LIFECYCLE</small></div></div>
+    <div class="brand"><img class="brand-mark" src="brand-assets/nekurama-line-art-mark.jpeg" alt=""><div><strong>NEKURAMA</strong><small>WORK LIFECYCLE</small></div></div>
     <div class="rail-label">Reference</div>
     <nav class="nav" aria-label="Main navigation">
       <a class="active" href="#overview"><span class="ico">◈</span>Overview</a>
