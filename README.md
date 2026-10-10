@@ -26,6 +26,8 @@ This repository explains **how we organize, authorize, execute, review, deliver,
 - [Local Paperclip setup](docs/setup/paperclip-local-setup.md) — intended setup guide; exact product behavior must be verified before instructions are finalized.
 - [Work item template](templates/work-item.md) — reusable work definition.
 - [Decision record template](templates/decision-record.md) — record material decisions and their evidence.
+- [Interactive lifecycle guide](site/index.html) — browser-based stages, transitions, state management, and department journeys.
+- [Webapp notes](docs/webapp/README.md) — design scope and hosting status.
 - [Implementation roadmap](docs/roadmap.md) — links to the active GitHub workstream.
 
 ## Status and change control
