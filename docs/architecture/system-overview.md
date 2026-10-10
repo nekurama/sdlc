@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Coordinate company work through shared GitHub records while allowing each person to use local AI tools and agents. A human selects eligible work, reviews the proposed plan, authorizes execution, inspects evidence, and makes the applicable acceptance decision.
+Coordinate **all Nekurama business work**, technical and non-technical, through shared GitHub records while allowing each person to use local AI tools and agents. The same universal lifecycle governs research, strategy, product, operations, marketing, software, and other work; work-type profiles define the artifacts, criteria, and approval gates relevant to each. A human selects eligible work, reviews the proposed plan, authorizes execution, inspects evidence, and makes the applicable acceptance decision.
 
 ## System roles
 
