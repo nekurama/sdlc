@@ -1,6 +1,8 @@
 # Nekurama SDLC
 
-Shared lifecycle, governance, policies, and operating guides for work across Nekurama and BABAI.
+Shared lifecycle, governance, policies, and operating guides for **all Nekurama business work**, across Nekurama and BABAI.
+
+This repo defines the company-wide way of working for both **technical and non-technical work**: business strategy, research, product, operations, marketing, finance, people processes, software, and other company work. The lifecycle is universal; work-type guidance adds the artifacts, criteria, and approvals appropriate to each kind of work. Here, “SDLC” names the shared work lifecycle, not a software-only process.
 
 This repository explains **how we organize, authorize, execute, review, deliver, and maintain work**. It is a documentation and governance home. Executable Paperclip integration, sync services, adapters, and installation code belong in a separate implementation repository when that work is started.
 
