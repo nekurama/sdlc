@@ -25,7 +25,7 @@ Source context: [Bulb #1](https://github.com/nekurama/Bulb/issues/1), [#2](https
 
 **Target address:** `https://sdlc.nekurama.com`.
 
-A custom GitHub Actions workflow uploads only `site/` and deploys it to GitHub Pages on pushes to `main`. It does not deploy pull requests. The custom domain needs a DNS record and GitHub Pages custom-domain configuration; the DNS provider and current domain setup have not yet been inspected.
+A custom GitHub Actions workflow uploads only `site/` and deploys it to GitHub Pages on pushes to `main`. It does not deploy pull requests. For GitHub Pages, add `sdlc.nekurama.com` as the repository custom domain, then create a DNS `CNAME` record for `sdlc` pointing to `nekurama.github.io`. Verify `nekurama.com` for the GitHub organization before use to reduce domain-takeover risk. The DNS provider and current domain records have not yet been inspected. With a custom Actions workflow, configure the custom domain in repository Pages settings; a `CNAME` file is not required.
 
 **Visibility blocker:** GitHub currently reports that Pages is unavailable while this repository is private unless the organization upgrades its plan. A custom domain changes the address, not the access model. Making the repository public would expose the published site. Do not merge/deploy until private hosting is available or a public release is explicitly chosen.
 
