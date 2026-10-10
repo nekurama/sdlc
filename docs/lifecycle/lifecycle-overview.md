@@ -1,5 +1,7 @@
 # Universal work lifecycle
 
+**Scope:** This lifecycle applies across the whole Nekurama business, for technical and non-technical work alike. Work type determines the specific artifacts, acceptance criteria, reviewers, and evidence; it does not replace the universal lifecycle.
+
 **Status:** Working baseline. The complete transition matrix, named approval roles, and evidence gates are not yet finalized. See [nekurama/Bulb#7](https://github.com/nekurama/Bulb/issues/7).
 
 Stages describe **where** work is. States describe **what is happening now**. They are independent dimensions; changing a state does not automatically advance the stage.
