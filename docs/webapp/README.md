@@ -23,8 +23,10 @@ Source context: [Bulb #1](https://github.com/nekurama/Bulb/issues/1), [#2](https
 
 ## Hosting
 
-A custom GitHub Actions workflow uploads only `site/` and deploys it to GitHub Pages on pushes to `main`. It does not deploy pull requests.
+**Target address:** `https://sdlc.nekurama.com`.
 
-**Visibility blocker:** GitHub currently reports that Pages is unavailable while this repository is private unless the organization upgrades its plan. Making the repository public would expose the published site. Do not merge/deploy until the team chooses a visibility route and Pages is enabled accordingly.
+A custom GitHub Actions workflow uploads only `site/` and deploys it to GitHub Pages on pushes to `main`. It does not deploy pull requests. The custom domain needs a DNS record and GitHub Pages custom-domain configuration; the DNS provider and current domain setup have not yet been inspected.
 
-For an internal reference, prefer private Pages access through an eligible GitHub Enterprise plan. If public hosting is chosen, first review every page and example for information suitable for public release.
+**Visibility blocker:** GitHub currently reports that Pages is unavailable while this repository is private unless the organization upgrades its plan. A custom domain changes the address, not the access model. Making the repository public would expose the published site. Do not merge/deploy until private hosting is available or a public release is explicitly chosen.
+
+For an internal reference, use private Pages access through an eligible GitHub Enterprise plan, or choose a different authenticated static host. If public hosting is chosen, first review every page and example for information suitable for public release.
